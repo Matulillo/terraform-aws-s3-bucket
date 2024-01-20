@@ -1,3 +1,4 @@
+#my locals
 locals {
   enabled   = module.this.enabled
   partition = join("", data.aws_partition.current[*].partition)
